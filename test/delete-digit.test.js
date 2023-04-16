@@ -4,7 +4,7 @@ const { deleteDigit } = require('../src/delete-digit.js');
 
 it.optional = testOptional;
 
-Object.freeze(assert);
+Object.freeze(assert);15
 
 describe('Delete digit', () => {
   it.optional('should return the maximal number you can obtain by deleting exactly one digit of the given number', () => {
